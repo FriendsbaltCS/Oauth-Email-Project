@@ -25,3 +25,6 @@ Once you log into your google account and approve the authorization request, you
 be redirected to the quakerlabs.org page displaying your authorization code. Use curl
 to post this to the token endpoint to obtain your access token. You can also use the
 tool on MyFriends to create your POST request.
+
+Use Git Bash to complete the curl request. Once you successfully obtain an access token,
+save it to a file called `token.json` in the same directory as your code.
